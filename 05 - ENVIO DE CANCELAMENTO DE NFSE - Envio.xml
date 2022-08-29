@@ -1,0 +1,16 @@
+<CrossTalk_Message>
+	<CrossTalk_Header>
+		<ProcessCode>20002</ProcessCode>
+		<MessageType>100</MessageType>
+		<ExchangePattern>7</ExchangePattern>
+		<GUID>756f0d2d-ff23-460c-9323-2f6b2d0ba171</GUID>
+		<DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+		<EnterpriseId>07432517001928</EnterpriseId>
+		<Token>WorkShopNFSe</Token>
+		<ContentEncoding>UTF-8</ContentEncoding>
+	</CrossTalk_Header>
+	<CrossTalk_Body>
+		<JobKey>646</JobKey>
+		<NFSe Number="54"/>
+	</CrossTalk_Body>
+</CrossTalk_Message>

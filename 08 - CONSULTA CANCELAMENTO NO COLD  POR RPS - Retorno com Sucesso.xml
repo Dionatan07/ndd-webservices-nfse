@@ -1,0 +1,24 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ResponseCode>200</ResponseCode>
+    <ResponseCodeMessage>Processo realizado com sucesso</ResponseCodeMessage>
+    <ProcessCode>20003</ProcessCode>
+    <MessageType>210</MessageType>
+    <ExchangePattern>1</ExchangePattern>
+    <GUID>01cbce85-6994-4229-9df7-326373eb249a</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentType>text/csv</ContentType>
+    <ContentEncoding>utf-8</ContentEncoding>
+  </CrossTalk_Header>
+  <CrossTalk_Body>
+    <Code>100</Code>
+    <Description>Documento encontrado</Description>
+    <Document Status="1">
+      <IMPrest>1236046</IMPrest>
+      <Rps Number="205" Series="A" />
+      <NFSe Number="53" EmissionDate="2022-08-28" />
+    </Document>
+  </CrossTalk_Body>
+</CrossTalk_Message>

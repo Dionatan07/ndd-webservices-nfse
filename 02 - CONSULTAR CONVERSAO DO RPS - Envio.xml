@@ -1,0 +1,18 @@
+<CrossTalk_Message>
+	<CrossTalk_Header>
+		<ProcessCode>20001</ProcessCode>
+		<MessageType>100</MessageType>
+		<ExchangePattern>8</ExchangePattern>
+		<GUID>B0BE6266-35AF-4271-908E-09DA2D4F3360</GUID>
+		<DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+		<EnterpriseId>07432517001928</EnterpriseId>
+		<Token>WorkShopNFSe</Token>
+		<ContentEncoding>UTF-8</ContentEncoding>
+	</CrossTalk_Header>
+	<CrossTalk_Body>
+		<JobKey>646</JobKey>
+		<RpsList>
+			<Rps Number="207" Series="A" Kind="1" IdentificationKind="2"/>
+		</RpsList>
+	</CrossTalk_Body>
+</CrossTalk_Message>

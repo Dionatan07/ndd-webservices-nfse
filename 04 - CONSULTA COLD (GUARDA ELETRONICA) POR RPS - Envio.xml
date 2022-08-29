@@ -1,0 +1,31 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ProcessCode>20003</ProcessCode>
+    <MessageType>103</MessageType>
+    <ExchangePattern>1</ExchangePattern>
+    <GUID>0c487cad-1457-46c1-ace3-3092f391234b</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentType>text/csv</ContentType>
+    <ContentEncoding>utf-8</ContentEncoding>
+  </CrossTalk_Header>
+  <CrossTalk_Body>
+    <GroupId>Cold Filial 1</GroupId> 
+    <FixedFilter>
+      <ColdSearch XMLRps="false" XMLNFSe="true" PDFNFSe="true" XMLCancel="false">  
+        <Authentication>
+          <User>SIMPRESS</User>
+          <Password>SIMPRESS</Password>
+          <ColdID>552</ColdID> 
+        </Authentication>
+        <Document>
+          <IMPrest>1236046</IMPrest>
+          <Rps Number="205" Series="A" /> 
+        </Document>
+      </ColdSearch>
+    </FixedFilter>
+  </CrossTalk_Body>
+</CrossTalk_Message>
+
+

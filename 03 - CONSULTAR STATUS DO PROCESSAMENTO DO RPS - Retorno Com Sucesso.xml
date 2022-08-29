@@ -1,0 +1,46 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ResponseCode>200</ResponseCode>
+    <ResponseCodeMessage>Processo realizado com sucesso</ResponseCodeMessage>
+    <ProcessCode>20001</ProcessCode>
+    <MessageType>210</MessageType>
+    <ExchangePattern>1</ExchangePattern>
+    <GUID>e85fb54d-03a3-47f7-a505-29853ef26eff</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentEncoding>UTF-8</ContentEncoding>
+  </CrossTalk_Header>
+  <CrossTalk_Body>
+    <JobKey>646</JobKey>
+    <RpsList>
+      <Rps Number="205" Series="A" Kind="1">
+        <Code>100</Code>
+        <Description>RPS convertida em NFS-e</Description>
+        <StatusList>
+          <Status>
+            <Code>7</Code>
+            <Description>Documento Rps convertido em NFSe com sucesso.</Description>
+          </Status>
+        </StatusList>
+        <IntegrationList>
+          <Integration Kind="1">
+            <ContentData compacted="false" type="text"><![CDATA[<?xml version="1.0" encoding="utf-8"?>{@E@}<IntegrationXml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">{@E@}  <param retorno="XML" />{@E@}  <AtualizarNfse>{@E@}    <Dados>{@E@}      <param nome="NUMCGC" valor="07432517001928" />{@E@}      <param nome="NUMRPS" valor="205" />{@E@}      <param nome="CODSNF" valor="A" />{@E@}      <param nome="INDSUC" valor="1" />{@E@}      <param nome="NUMNFS" valor="53" />{@E@}      <param nome="CODVRF" valor="67793EF5-" />{@E@}      <param nome="DATHOR" valor="2022-08-28T00:00:00" />{@E@}      <param nome="CODCTR" valor="" />{@E@}      <param nome="RPSID" valor="A000009" />{@E@}      <Mensagens />{@E@}      <MensagensLote />{@E@}      <MessagesBusiness />{@E@}    </Dados>{@E@}  </AtualizarNfse>{@E@}</IntegrationXml>]]></ContentData>
+            <IdInput>379906</IdInput>
+            <IdIntegration>436990</IdIntegration>
+            <CodReturn>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;Root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Codigos&gt;
+    &lt;Codigo&gt;NDD100&lt;/Codigo&gt;
+  &lt;/Codigos&gt;
+&lt;/Root&gt;</CodReturn>
+          </Integration>
+        </IntegrationList>
+        <GenericDoc>
+          <ContentData compacted="false" type="text"><![CDATA[<?xml version="1.0" encoding="utf-8"?>{@E@}<Rps xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">{@E@}  <InfRps Id="A000009" Versao="5.13">{@E@}    <Competencia>28-08-2022 15:48:13</Competencia>{@E@}    <DataEmissao>28-08-2022 15:48:13</DataEmissao>{@E@}    <NaturezaOperacao>1</NaturezaOperacao>{@E@}    <RegimeEspecialTributacao>12</RegimeEspecialTributacao>{@E@}    <OptanteSimplesNacional>2</OptanteSimplesNacional>{@E@}    <IncentivoFiscal>2</IncentivoFiscal>{@E@}    <Status>1</Status>{@E@}    <TributarMunicipio>2</TributarMunicipio>{@E@}    <TributarPrestador>1</TributarPrestador>{@E@}    <IdentificacaoRps>{@E@}      <Numero>205</Numero>{@E@}      <Serie>A</Serie>{@E@}      <Tipo>1</Tipo>{@E@}      <NumeroRpsCliente>205</NumeroRpsCliente>{@E@}      <SerieOriginal>A</SerieOriginal>{@E@}    </IdentificacaoRps>{@E@}    <Servico>{@E@}      <Valores />{@E@}      <DadosComplementaresServico>{@E@}        <ListaItens />{@E@}        <ListaDeducoes />{@E@}      </DadosComplementaresServico>{@E@}    </Servico>{@E@}    <Servicos>{@E@}      <Valores>{@E@}        <ValorServicos>2,00</ValorServicos>{@E@}        <ValorDeducoes>0,00</ValorDeducoes>{@E@}        <ValorPis>0,01</ValorPis>{@E@}        <ValorCofins>0,06</ValorCofins>{@E@}        <ValorInss>0,00</ValorInss>{@E@}        <ValorIr>0,10</ValorIr>{@E@}        <ValorCsll>0,02</ValorCsll>{@E@}        <ValorIss>0,10</ValorIss>{@E@}        <BaseCalculo>2,00</BaseCalculo>{@E@}        <Aliquota>0,0500</Aliquota>{@E@}        <ValorLiquidoNfse>1,71</ValorLiquidoNfse>{@E@}      </Valores>{@E@}      <AliquotasComplementares>{@E@}        <AliquotaPIS>1,6500</AliquotaPIS>{@E@}        <AliquotaCOFINS>7,6000</AliquotaCOFINS>{@E@}        <AliquotaINSS>0,0000</AliquotaINSS>{@E@}        <AliquotaIR>4,8000</AliquotaIR>{@E@}        <AliquotaCSLL>0,0000</AliquotaCSLL>{@E@}      </AliquotasComplementares>{@E@}      <ItemListaServico>13.04</ItemListaServico>{@E@}      <CodigoCnae>8219901</CodigoCnae>{@E@}      <CodigoTributacaoMunicipio>1304</CodigoTributacaoMunicipio>{@E@}      <Discriminacao>SERVICOS DE REPROGRAFIA</Discriminacao>{@E@}      <MunicipioIncidencia>3204906</MunicipioIncidencia>{@E@}      <MunicipioIncidenciaSiafi>5705</MunicipioIncidenciaSiafi>{@E@}      <DescricaoRPS>Devolucao referente a nota fiscal n?? 181336 emissao: 13/08/2010.</DescricaoRPS>{@E@}      <IssRetido>2</IssRetido>{@E@}      <DadosComplementaresServico>{@E@}        <TipoRecolhimento>1</TipoRecolhimento>{@E@}        <MunicipioPrestacaoDescricao>Vitoria</MunicipioPrestacaoDescricao>{@E@}        <SeriePrestacao>99</SeriePrestacao>{@E@}        <ListaItens>{@E@}          <Item>{@E@}            <ItemListaServico>13.04</ItemListaServico>{@E@}            <CodigoCnae>8219901</CodigoCnae>{@E@}            <DiscriminacaoServico>SERVICOS DE REPROGRAFIA</DiscriminacaoServico>{@E@}            <Quantidade>1,00</Quantidade>{@E@}            <ValorUnitario>2,00</ValorUnitario>{@E@}            <ValorDesconto>0,00</ValorDesconto>{@E@}            <ValorTotal>2,00</ValorTotal>{@E@}            <ServicoTributavel>1</ServicoTributavel>{@E@}            <CodigoTributacaoMunicipio>1304</CodigoTributacaoMunicipio>{@E@}            <VlrAliquota>0,0500</VlrAliquota>{@E@}          </Item>{@E@}        </ListaItens>{@E@}        <ListaDeducoes />{@E@}      </DadosComplementaresServico>{@E@}      <EnderecoServico>{@E@}        <Endereco>Avenida Jeronimo Monteiro</Endereco>{@E@}        <Numero>1000</Numero>{@E@}        <Complemento>Sala 1104</Complemento>{@E@}        <Bairro>Centro</Bairro>{@E@}        <Uf>ES</Uf>{@E@}        <Cep>29010004</Cep>{@E@}        <CidadeObra>Vitoria</CidadeObra>{@E@}      </EnderecoServico>{@E@}      <Observacao>Devolucao referente a nota fiscal n?? 181336 emissao: 13/08/2010.Retencao Contratual R$: 0,00 Valor Liquido: R$1,71</Observacao>{@E@}    </Servicos>{@E@}    <Faturas />{@E@}    <Prestador>{@E@}      <Cnpj>07432517001928</Cnpj>{@E@}      <InscricaoMunicipal>1236046</InscricaoMunicipal>{@E@}      <EnderecoPrestador>{@E@}        <Endereco>Avenida Jeronimo Monteiro</Endereco>{@E@}        <Numero>1000</Numero>{@E@}        <Complemento>Sala 1104</Complemento>{@E@}        <Bairro>Centro</Bairro>{@E@}        <Uf>ES</Uf>{@E@}        <Cep>29010004</Cep>{@E@}      </EnderecoPrestador>{@E@}      <DadosComplementaresPrestador>{@E@}        <DDD>11</DDD>{@E@}        <Telefone>2733250270</Telefone>{@E@}        <RazaoSocial>SIMPRESS COMERCIO LOCACAO E SERVICOS LTDA</RazaoSocial>{@E@}        <Email />{@E@}      </DadosComplementaresPrestador>{@E@}    </Prestador>{@E@}    <Tomador>{@E@}      <RazaoSocial>PETROLEO BRASILEIRO S A PETROBRAS</RazaoSocial>{@E@}      <IdentificacaoTomador>{@E@}        <Cnpj>33000167099728</Cnpj>{@E@}        <InscricaoMunicipal />{@E@}      </IdentificacaoTomador>{@E@}      <EnderecoTomador>{@E@}        <Endereco>R GOV MARIO COVAS</Endereco>{@E@}        <Numero>0</Numero>{@E@}        <Complemento>KM 68</Complemento>{@E@}        <Bairro>MORADO DE </Bairro>{@E@}        <CodigoMunicipio>3204906</CodigoMunicipio>{@E@}        <CodigoMunicipioSiafi>6001</CodigoMunicipioSiafi>{@E@}        <Uf>ES</Uf>{@E@}        <Cep>29936450</Cep>{@E@}        <PaisObra>1058</PaisObra>{@E@}      </EnderecoTomador>{@E@}      <Contato>{@E@}        <Telefone>4333776510</Telefone>{@E@}        <Email>documentacao@formaldocumentos.com.br</Email>{@E@}      </Contato>{@E@}      <DadosComplementaresTomador>{@E@}        <CidadeDescricao>Sao Mateus</CidadeDescricao>{@E@}      </DadosComplementaresTomador>{@E@}    </Tomador>{@E@}  </InfRps>{@E@}  <InfNfse>{@E@}    <Numero>53</Numero>{@E@}    <DataEmissao>28/08/2022 00:00:00</DataEmissao>{@E@}    <CodigoVerificacao>67793EF5-</CodigoVerificacao>{@E@}    <CodigoControle xsi:nil="true" />{@E@}    <Status>1</Status>{@E@}    <DataCancelamento xsi:nil="true" />{@E@}    <NumeroGuia xsi:nil="true" />{@E@}    <DataQuitacaoGuia xsi:nil="true" />{@E@}    <ValorCredito>0,00</ValorCredito>{@E@}    <Competencia>01/01/0001 00:00:00</Competencia>{@E@}    <ValoresServico>{@E@}      <ValorServicos>2,00</ValorServicos>{@E@}      <ValorIss>0,10</ValorIss>{@E@}      <BaseCalculo>2,00</BaseCalculo>{@E@}      <Aliquota>5,0000</Aliquota>{@E@}      <ValorLiquidoNfse>1,81</ValorLiquidoNfse>{@E@}    </ValoresServico>{@E@}    <CodigoVerificacaoCancelamento xsi:nil="true" />{@E@}  </InfNfse>{@E@}  <DadosAdic>{@E@}    <CamposAdicionais />{@E@}  </DadosAdic>{@E@}  <ListaDadosMunicipio xsi:nil="true" />{@E@}  <ImpressaoControladaRps xsi:nil="true" />{@E@}  <Boletos />{@E@}  <DadosAdicCancel xsi:nil="true" />{@E@}  <OriginalNFSe xsi:nil="true" />{@E@}</Rps>]]></ContentData>
+        </GenericDoc>
+      </Rps>
+    </RpsList>
+    <IdInput>379906</IdInput>
+  </CrossTalk_Body>
+</CrossTalk_Message>

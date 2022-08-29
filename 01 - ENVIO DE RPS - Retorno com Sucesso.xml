@@ -1,0 +1,14 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ResponseCode>200</ResponseCode>
+    <ResponseCodeMessage>Processo realizado com sucesso</ResponseCodeMessage>
+    <ProcessCode>20001</ProcessCode>
+    <MessageType>210</MessageType>
+    <ExchangePattern>7</ExchangePattern>
+    <GUID>77569495-69da-45b8-b3e2-abc302f8fdcf</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentEncoding>UTF-8</ContentEncoding>
+  </CrossTalk_Header>
+</CrossTalk_Message>

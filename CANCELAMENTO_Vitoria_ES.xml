@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cancelamento xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InfPedidoCancelamento Versao="4.00" Id="Canc_Id">
+		<Numero>54</Numero>
+		<Cnpj>07432517001928</Cnpj>
+		<InscricaoMunicipal>1236046</InscricaoMunicipal>
+		<CodigoMunicipio>3205309</CodigoMunicipio>
+		<CodigoCancelamento>2</CodigoCancelamento>
+		<DadosComplementaresCancelamento>
+			<MotivoCancelamento>Teste de Cancelamento de NFSe</MotivoCancelamento>
+		</DadosComplementaresCancelamento>
+	</InfPedidoCancelamento>
+		</Cancelamento>

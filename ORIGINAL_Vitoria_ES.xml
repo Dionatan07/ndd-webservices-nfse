@@ -1,0 +1,122 @@
+<Rps>
+	<InfRps Id="A000009" Versao="5.13">
+		<Competencia>28-08-2022 15:48:13</Competencia>
+		<DataEmissao>28-08-2022 15:48:13</DataEmissao>
+		<NaturezaOperacao>1</NaturezaOperacao>
+		<RegimeEspecialTributacao>12</RegimeEspecialTributacao>
+		<OptanteSimplesNacional>2</OptanteSimplesNacional>
+		<IncentivoFiscal>2</IncentivoFiscal>
+		<Status>1</Status>
+		<TributarMunicipio>2</TributarMunicipio>
+		<TributarPrestador>1</TributarPrestador>
+		<IdentificacaoRps>
+			<Numero>200</Numero>
+			<Serie>A</Serie>
+			<Tipo>1</Tipo>
+		</IdentificacaoRps>
+		<Servicos>
+			<Valores>
+				<ValorServicos>2,00</ValorServicos>
+				<ValorDeducoes>0,00</ValorDeducoes>
+				<ValorPis>0,01</ValorPis>
+				<ValorCofins>0,06</ValorCofins>
+				<ValorInss>0,00</ValorInss>
+				<ValorIr>0,10</ValorIr>
+				<ValorCsll>0,02</ValorCsll>
+				<ValorIss>0,10</ValorIss>
+				<BaseCalculo>2,00</BaseCalculo>
+				<Aliquota>0,0500</Aliquota>
+				<ValorLiquidoNfse>1,71</ValorLiquidoNfse>
+			</Valores>
+			<AliquotasComplementares>
+				<AliquotaPIS>1,6500</AliquotaPIS>
+				<AliquotaCOFINS>7,6000</AliquotaCOFINS>
+				<AliquotaINSS>0,0000</AliquotaINSS>
+				<AliquotaIR>4,8000</AliquotaIR>
+				<AliquotaCSLL>0,0000</AliquotaCSLL>
+			</AliquotasComplementares>
+			<ItemListaServico>13.04</ItemListaServico>
+			<CodigoCnae>8219901</CodigoCnae>
+			<CodigoTributacaoMunicipio>1304</CodigoTributacaoMunicipio>
+			<Discriminacao>SERVICOS DE REPROGRAFIA</Discriminacao>
+			<MunicipioIncidencia>3204906</MunicipioIncidencia>
+			<MunicipioIncidenciaSiafi>5705</MunicipioIncidenciaSiafi>
+			<DescricaoRPS>Devolucao referente a nota fiscal n?? 181336 emissao: 13/08/2010.</DescricaoRPS>
+			<IssRetido>2</IssRetido>
+			<Observacao>Devolucao referente a nota fiscal n?? 181336 emissao: 13/08/2010.Retencao Contratual R$: 0,00 Valor Liquido: R$1,71</Observacao>
+			<DadosComplementaresServico>
+				<TipoRecolhimento>1</TipoRecolhimento>
+				<MunicipioPrestacaoDescricao>Vitoria</MunicipioPrestacaoDescricao>
+				<SeriePrestacao>99</SeriePrestacao>
+				<ListaItens>
+					<Item>
+						<ItemListaServico>13.04</ItemListaServico>
+						<CodigoCnae>8219901</CodigoCnae>
+						<DiscriminacaoServico>SERVICOS DE REPROGRAFIA</DiscriminacaoServico>
+						<Quantidade>1,00</Quantidade>
+						<ValorUnitario>2,00</ValorUnitario>
+						<ValorDesconto>0,00</ValorDesconto>
+						<ValorTotal>2,00</ValorTotal>
+						<ServicoTributavel>1</ServicoTributavel>
+						<CodigoTributacaoMunicipio>1304</CodigoTributacaoMunicipio>
+						<VlrAliquota>0,0500</VlrAliquota>
+					</Item>
+				</ListaItens>
+			</DadosComplementaresServico>
+			<EnderecoServico>
+				<Endereco>Avenida Jeronimo Monteiro</Endereco>
+				<Numero>1000</Numero>
+				<Complemento>Sala 1104</Complemento>
+				<Bairro>Centro</Bairro>
+				<Uf>ES</Uf>
+				<Cep>29010004</Cep>
+				<CidadeObra>Vitoria</CidadeObra>
+			</EnderecoServico>
+		</Servicos>
+		<Prestador>
+			<Cnpj>07432517001928</Cnpj>
+			<InscricaoMunicipal>1236046</InscricaoMunicipal>
+			<CodigoPais>1058</CodigoPais>
+			<EnderecoPrestador>
+				<Endereco>Avenida Jeronimo Monteiro</Endereco>
+				<Numero>1000</Numero>
+				<Complemento>Sala 1104</Complemento>
+				<Bairro>Centro</Bairro>
+				<Uf>ES</Uf>
+				<Cep>29010004</Cep>
+			</EnderecoPrestador>
+			<DadosComplementaresPrestador>
+				<RazaoSocial>SIMPRESS COMERCIO LOCACAO E SERVICOS LTDA</RazaoSocial>
+				<Telefone>2733250270</Telefone>
+				<DDD>11</DDD>
+				<Email/>
+			</DadosComplementaresPrestador>
+		</Prestador>
+		<Tomador>
+			<RazaoSocial>PETROLEO BRASILEIRO S A PETROBRAS</RazaoSocial>
+			<IdentificacaoTomador>
+				<Cnpj>33000167099728</Cnpj>
+				<InscricaoMunicipal/>
+			</IdentificacaoTomador>
+			<EnderecoTomador>
+				<Endereco>R GOV MARIO COVAS</Endereco>
+				<Numero>0</Numero>
+				<Complemento>KM 68</Complemento>
+				<Bairro>MORADO DE </Bairro>
+				<CodigoMunicipio>3204906</CodigoMunicipio>
+				<CodigoMunicipioSiafi>6001</CodigoMunicipioSiafi>
+				<Uf>ES</Uf>
+				<Cep>29936450</Cep>
+				<PaisObra>1058</PaisObra>
+			</EnderecoTomador>
+			<Contato>
+				<Telefone>4333776510</Telefone>
+				<Email>documentacao@formaldocumentos.com.br</Email>
+			</Contato>
+			<DadosComplementaresTomador>
+				<CidadeDescricao>Sao Mateus</CidadeDescricao>
+			</DadosComplementaresTomador>
+		</Tomador>
+	</InfRps>
+	<DadosAdic>0,00</DadosAdic>
+</Rps>

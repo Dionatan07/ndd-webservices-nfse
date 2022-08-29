@@ -1,0 +1,31 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ResponseCode>200</ResponseCode>
+    <ResponseCodeMessage>Processo realizado com sucesso</ResponseCodeMessage>
+    <ProcessCode>20001</ProcessCode>
+    <MessageType>210</MessageType>
+    <ExchangePattern>8</ExchangePattern>
+    <GUID>B0BE6266-35AF-4271-908E-09DA2D4F3360</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentEncoding>UTF-8</ContentEncoding>
+  </CrossTalk_Header>
+  <CrossTalk_Body>
+    <JobKey>646</JobKey>
+    <RpsList>
+      <Rps Number="207" Series="A" Kind="1">
+        <Code>200</Code>
+        <Description>RPS com erros</Description>
+        <ErrorList>
+          <Error>
+            <Code>300</Code>
+            <Description>O campo: 'Item Lista Serviço' não corresponde ao formato válido = 99.99. Xpath: Rps/InfRps/Servicos/ItemListaServico</Description>
+          </Error>
+        </ErrorList>
+        <IntegrationList />
+      </Rps>
+    </RpsList>
+    <IdInput>379909</IdInput>
+  </CrossTalk_Body>
+</CrossTalk_Message>

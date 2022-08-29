@@ -1,0 +1,26 @@
+<CrossTalk_Message>
+  <CrossTalk_Header>
+    <ResponseCode>200</ResponseCode>
+    <ResponseCodeMessage>Processo realizado com sucesso</ResponseCodeMessage>
+    <ProcessCode>20002</ProcessCode>
+    <MessageType>210</MessageType>
+    <ExchangePattern>8</ExchangePattern>
+    <GUID>6C009AB4-FCE4-4583-AA05-DFEC55EA996E</GUID>
+    <DateTime>2022-08-28T09:30:47.1234567-02:00</DateTime>
+    <EnterpriseId>07432517001928</EnterpriseId>
+    <Token>WorkShopNFSe</Token>
+    <ContentEncoding>UTF-8</ContentEncoding>
+  </CrossTalk_Header>
+  <CrossTalk_Body>
+    <JobKey>646</JobKey>
+    <NFSe Number="54">
+      <Code>100</Code>
+      <Description>Cancelamento convertido com sucesso</Description>
+    </NFSe>
+    <Rps>
+      <Code>400</Code>
+      <Description>Cancelamento em processamento</Description>
+    </Rps>
+    <IdInput>379912</IdInput>
+  </CrossTalk_Body>
+</CrossTalk_Message>
